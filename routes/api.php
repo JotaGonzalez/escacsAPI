@@ -202,18 +202,3 @@ Route::post('/mover', function(Request $request) {
         'game' => $game
     ]);
 });
-
-Route::get('/consulta', function(){
-	/*consulta de las personas conectadas*/
-});
-
-/*Required Parameters
-
-Route::get('user/{id}', function ($id) {
-    return 'User '.$id;
-});
-
-Route::get('posts/{post}/comments/{comment}', function ($postId, $commentId) {
-    //
-});
-*/
